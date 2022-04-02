@@ -7,11 +7,11 @@ inherit cargo
 
 # how to get rust_gtk3_example could be as easy as but default to a git checkout:
 # SRC_URI += "crate://crates.io/rust_gtk3_example/0.1.0"
-SRC_URI += "git://git@github.com/smallB007/rust_gtk3_example.git;protocol=https;nobranch=1;branch=main"
-SRCREV = "783ca0773004eace5ad143e5f7e2a3303d2dfef6"
+SRC_URI += "git://git@github.com/smallB007/rust_gtk3_example.git;protocol=ssh;nobranch=1;branch=main"
+SRCREV = "f89f8d168dd8c085de84bc0925ae5c512684f5b8"
 S = "${WORKDIR}/git"
 CARGO_SRC_DIR = ""
-PV:append = ".AUTOINC+783ca07730"
+PV:append = ".AUTOINC+f89f8d168d"
 
 # please note if you have entries that do not begin with crate://
 # you must change them to how that package can be fetched
