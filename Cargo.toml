@@ -6,7 +6,7 @@ repository = "https://github.com/smallB007/rust_gtk3_example.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-gtk = "0.15.4"
+gtk = "0.15.3"
 gobject-sys = "0.15.10"
 [net]
 retry = 6                 # network retries
