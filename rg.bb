@@ -8,7 +8,7 @@ inherit cargo
 # how to get rust_gtk3_example could be as easy as but default to a git checkout:
 # SRC_URI += "crate://crates.io/rust_gtk3_example/0.1.0"
 SRC_URI += "git://git@github.com/smallB007/rust_gtk3_example.git;protocol=https;nobranch=1;branch=main"
-SRCREV = "9097d9f6ba109883fe0d9cd7812a0e4f60d9fb35"
+SRCREV = "${AUTOREV}"
 S = "${WORKDIR}/git"
 CARGO_SRC_DIR = ""
 PV:append = ".AUTOINC+9097d9f6ba"
