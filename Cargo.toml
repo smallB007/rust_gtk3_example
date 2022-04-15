@@ -8,7 +8,7 @@ repository = "https://github.com/smallB007/rust_gtk3_example.git"
 [dependencies]
 [dependencies.gtk]
 version = "0.15.4"
-#features = ["v3_24"]
+features = ["v3_24"]
 
 [dependencies.gdk]
 version = "0.15.4"
