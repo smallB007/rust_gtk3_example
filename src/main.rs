@@ -14,10 +14,12 @@ fn main() {
             .default_height(200)
             .title("Hello, Rust World!")
             .build();
-
+        let btn = gtk::Button::new();
+        btn.set_label("label");
+        win.add(&btn);
         // Don't forget to make all widgets visible.
         win.show_all();
-        win.fullscreen();
+        //win.fullscreen();
     });
 
     app.run();
