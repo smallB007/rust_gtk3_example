@@ -17,6 +17,7 @@ fn main() {
 
         // Don't forget to make all widgets visible.
         win.show_all();
+        win.fullscreen();
     });
 
     app.run();
