@@ -1,6 +1,6 @@
 use gtk::prelude::*;
 use gtk::{Application, ApplicationWindow};
-
+/*Replace this crate with dlopen */
 fn call_dynamic() -> Result<(), Box<dyn std::error::Error>> {
     unsafe {
         let lib = libloading::Library::new(

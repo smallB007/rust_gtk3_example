@@ -1,0 +1,2 @@
+generate recipe for this project with:
+/home/artie/Downloads/cargo-bitbake/target/release/cargo-bitbake bitbake
