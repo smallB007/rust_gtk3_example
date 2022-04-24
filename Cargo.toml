@@ -5,7 +5,12 @@ edition = "2021"
 repository = "https://github.com/smallB007/rust_gtk3_example.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[net]
+retry = 6                 # network retries
+git-fetch-with-cli = true # use the `git` executable for git operations
+
 [dependencies]
+libloading = "0.7.3"
 [dependencies.gtk]
 version = "0.15.4"
 features = ["v3_24"]
